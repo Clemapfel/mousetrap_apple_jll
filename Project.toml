@@ -4,7 +4,6 @@ version = "0.1.0+0"
 
 [deps]
 OpenGLMathematics_jll = "cc7be9be-d298-5888-8f50-b85d5f9d6d73"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 libcxxwrap_julia_jll = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
 libadwaita_jll = "583852a3-1c13-5035-b52b-3b742a7b3316"

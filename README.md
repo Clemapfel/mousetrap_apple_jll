@@ -17,6 +17,7 @@ The tarballs for `mousetrap_apple_jll.jl` have been built from these sources:
 
 `mousetrap_apple_jll.jl` is available for the following platforms:
 
+* `macOS aarch64` (`aarch64-apple-darwin`)
 * `macOS x86_64` (`x86_64-apple-darwin`)
 
 ## Dependencies
