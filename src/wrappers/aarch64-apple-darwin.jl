@@ -4,13 +4,12 @@ export mousetrap, mousetrap_julia_binding
 using GTK4_jll
 using OpenGLMathematics_jll
 using libcxxwrap_julia_jll
-using libjulia_jll
 using libadwaita_jll
 JLLWrappers.@generate_wrapper_header("mousetrap_apple")
 JLLWrappers.@declare_library_product(mousetrap, "@rpath/libmousetrap.dylib")
 JLLWrappers.@declare_library_product(mousetrap_julia_binding, "@rpath/libmousetrap_julia_binding.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(GTK4_jll, OpenGLMathematics_jll, libcxxwrap_julia_jll, libjulia_jll, libadwaita_jll)
+    JLLWrappers.@generate_init_header(GTK4_jll, OpenGLMathematics_jll, libcxxwrap_julia_jll, libadwaita_jll)
     JLLWrappers.@init_library_product(
         mousetrap,
         "lib/libmousetrap.dylib",
