@@ -1,16 +1,16 @@
 [[mousetrap_apple]]
 arch = "aarch64"
-git-tree-sha1 = "361dacfbe04c6f9d9d83842530f03de5e4eb93eb"
+git-tree-sha1 = "50e8661eb53f0241aa3208dbc2f3c1a62067064a"
 os = "macos"
 
     [[mousetrap_apple.download]]
-    sha256 = "07fd55dc1e0aa38b921d4e50489ebea8a899b52352f9df1541e76145509eecc8"
+    sha256 = "c095d2fe6921c3bfd321cd9b6ef3df11182f4d8039410f04e3e1c63fa38c0c57"
     url = "https://github.com/Clemapfel/mousetrap_apple_jll/releases/download/mousetrap_apple-v0.2.0+0/mousetrap_apple.v0.2.0.aarch64-apple-darwin.tar.gz"
 [[mousetrap_apple]]
 arch = "x86_64"
-git-tree-sha1 = "ba0600666c46423fb7833e3b2ef1f84b7cf074da"
+git-tree-sha1 = "339a7b40e2368c31966c4f4cc54d69f362e09f7a"
 os = "macos"
 
     [[mousetrap_apple.download]]
-    sha256 = "b511d80718fd1f7941441d1818a90d97f3208bc0f206544236ac5b06937a4483"
+    sha256 = "670500c3eed1b38bebfc70bfe199649596237a692d7127080bc752ae5003ee90"
     url = "https://github.com/Clemapfel/mousetrap_apple_jll/releases/download/mousetrap_apple-v0.2.0+0/mousetrap_apple.v0.2.0.x86_64-apple-darwin.tar.gz"
